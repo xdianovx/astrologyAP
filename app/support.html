@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrap">
+          <div class="header__icon">
+            <img src="./img/choice.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="reg">
+      <div class="container">
+        <h2 class="reg__title">
+          Запрос в службу <br />
+          поддержки
+        </h2>
+
+        <form action="#" class="reg__form">
+          <div class="auth__input">
+            <label for="name">Имя</label>
+            <input id="name" type="text" />
+            <p class="auth__input_error">Неверный логин или пароль</p>
+          </div>
+
+          <div class="auth__input">
+            <label for="city">Телефон</label>
+            <input id="city" type="tel" placeholder="" />
+            <p class="auth__input_error">Неверный логин или пароль</p>
+          </div>
+
+          <div class="auth__input">
+            <!-- <label for="name">Имя</label> -->
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="1"
+              placeholder="Сообщение"
+            ></textarea>
+
+            <p class="auth__input_error">Неверный логин или пароль</p>
+          </div>
+
+          <button class="btn support__btn">Отправить</button>
+        </form>
+
+        <footer>
+          <div class="footer__img">
+            <img src="./img/support.svg" alt="Heart icon" />
+          </div>
+        </footer>
+      </div>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
