@@ -1,5 +1,11 @@
 .reg {
   margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  &.time {
+    height: calc(100vh - 64px);
+  }
 }
 
 .reg__title {
@@ -103,11 +109,7 @@
 }
 
 .form__image {
-  position: absolute;
-  bottom: 0;
   width: 100%;
-  left: 0;
-  z-index: -1;
 }
 
 .support__btn {
@@ -121,4 +123,10 @@
 
 .reg__link {
   padding-bottom: 63px;
+}
+
+@media screen and (max-height: 550px) {
+  .form__image {
+    opacity: 0;
+  }
 }
