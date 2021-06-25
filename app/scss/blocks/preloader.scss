@@ -32,3 +32,75 @@
 
   color: #939598;
 }
+
+.preload__img {
+  position: relative;
+  width: 105px;
+  height: 125px;
+  //animation: body-bg 2s ease infinite;
+}
+
+.preloader-bg {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.preloader-cirlce {
+  position: absolute;
+  left: 86px;
+  top: 10px;
+  width: 85px;
+  height: 85px;
+  animation: rotate360 5s linear infinite;
+}
+
+.preloader-eye {
+  position: absolute;
+  top: 42px;
+  left: 125px;
+  animation: eye 3s ease infinite;
+}
+
+@keyframes eye {
+  0% {
+    transform: translateY(0);
+  }
+
+  25% {
+    transform: translateY(3px) translateX(0);
+  }
+
+  50% {
+    transform: translateY(0px) translateX(3px);
+  }
+
+  75% {
+
+  }
+
+  100% {
+
+  }
+}
+
+
+@keyframes rotate360 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+//@keyframes body-bg {
+//  0% {
+//    transform: scale(1) rotate(0);
+//  }
+//
+//  100% {
+//    transform: scale(.5) rotate(-30deg);
+//  }
+//}
