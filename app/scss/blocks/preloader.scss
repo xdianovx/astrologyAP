@@ -48,7 +48,7 @@
 
 .preloader-cirlce {
   position: absolute;
-  left: 86px;
+  left: 10px;
   top: 10px;
   width: 85px;
   height: 85px;
@@ -58,13 +58,13 @@
 .preloader-eye {
   position: absolute;
   top: 42px;
-  left: 125px;
+  left: 50px;
   animation: eye 3s ease infinite;
 }
 
 @keyframes eye {
   0% {
-    transform: translateY(0);
+    transform: translateY(0) translateX(0);
   }
 
   25% {

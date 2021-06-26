@@ -1,0 +1,55 @@
+.timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100vh - 56px);
+}
+
+.timer__image {
+  width: 166px;
+  margin: 56px auto 0;
+  img {
+    width: 100%;
+    display: block;
+  }
+}
+
+.timer__count {
+  margin-top: 56px;
+}
+
+.timer__count_title {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  color: #6D6F72;
+}
+
+.timer__counter {
+  margin-top: 8px;
+  font-family: 'Playfair Display', Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #17181A;
+}
+
+.timer__link {
+  text-align: center;
+  margin-top: auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration-line: underline;
+  color: #17181A;
+  margin-bottom: 64px;
+}
